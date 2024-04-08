@@ -41,7 +41,7 @@
         <details  class=" space-y-3   hover:text-gray-700">
           <summary class=" text-gray-700 font-bold text-xl">Enlace</summary>
           <div class="space-y-3 border-gray-300 border-b-2 pb-5">
-            <p class="text-gray-500"><a href="">Enlace de GItHub</a></p>
+            <p class="text-gray-500"><a href="https://github.com/joanchorto1/cacteaching">Enlace de GItHub</a></p>
 <!--            <p class="text-gray-500"><a href="https://phoenixgrp.es">Enlace de Deploy</a></p>-->
           </div>
         </details>
@@ -75,7 +75,7 @@
           <details  class=" space-y-3   hover:text-gray-700">
             <summary class=" text-gray-700 font-bold text-xl">Enlace</summary>
             <div class="space-y-3 border-gray-300 border-b-2 pb-5">
-              <p class="text-gray-500"><a href="">Enlace de GItHub</a></p>
+              <p class="text-gray-500"><a href="https://github.com/joanchorto1/PhoenixGroupWeb">Enlace de GItHub</a></p>
               <p class="text-gray-500"><a href="https://phoenixgrp.es">Enlace de Deploy</a></p>
             </div>
           </details>
