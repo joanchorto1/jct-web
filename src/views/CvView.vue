@@ -39,10 +39,10 @@
     </div>
   </div>
 
-  <div class="flex flex-col  lg:space-y-10 md:space-y-10 lg:p-10 md:p-10 rounded-2xl bg-gray-100 text-black w-full p-3 md:w-4/5 lg:w-4/5 ">
+  <div class="flex flex-col  lg:space-y-10 md:space-y-10 lg:p-10 md:p-10 rounded-2xl bg-gray-100 text-black w-full p-3  lg:w-4/5 ">
     <h3 class="font-bold text-2xl">Skills</h3>
-    <div class="md:flex lg:flex w-full md:space-x-10 lg:space-x-10 lg:space-y-0 md:space-y-0 space-y-3">
-      <div class="bg-gray-200 rounded-2xl w-full p-10 space-y-1 lg:w-1/4 md:w-1/4">
+    <div class=" lg:flex w-full  lg:space-x-10 lg:space-y-5 md:space-y-5 space-y-3">
+      <div class="bg-gray-200 rounded-2xl w-full p-10 space-y-1 lg:w-1/4 ">
       <h4 class="font-bold mb-5 text-xl">Frontend</h4>
             <ul class="space-y-10">
 
@@ -68,7 +68,7 @@
               </li>
       </ul>
     </div>
-      <div class="bg-gray-200 rounded-2xl w-full p-10 space-y-1 lg:w-1/4 md:w-1/4">
+      <div class="bg-gray-200 rounded-2xl w-full p-10 space-y-1 lg:w-1/4 ">
       <h4 class="font-bold mb-5 text-xl">Backend</h4>
             <ul class="space-y-10">
 
@@ -89,7 +89,7 @@
               </li>
       </ul>
     </div>
-      <div class="bg-gray-200 rounded-2xl w-full p-10 space-y-1 lg:w-1/4 md:w-1/4">
+      <div class="bg-gray-200 rounded-2xl w-full p-10 space-y-1 lg:w-1/4 ">
       <h4 class="font-bold text-xl mb-10">DataBase</h4>
 
       <ul class="space-y-10">
@@ -111,7 +111,7 @@
         </li>
       </ul>
     </div>
-      <div class="bg-gray-200 rounded-2xl w-full p-10 space-y-1 lg:w-1/4 md:w-1/4">
+      <div class="bg-gray-200 rounded-2xl w-full p-10 space-y-1 lg:w-1/4 ">
       <h4 class="font-bold text-xl pb-10">Otras Skills</h4>
 
       <ul class="space-y-10">

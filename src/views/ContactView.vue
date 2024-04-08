@@ -53,7 +53,7 @@ export default {
   </div>
 
 
-  <div class="rounded-xl p-10  text-gray-950 lg:w-1/3  md:w-1/3 bg-gray-50">
+  <div class="rounded-xl p-10  text-gray-950 w-4/5 lg:w-1/3  md:w-1/3 bg-gray-50">
     <form class="" @submit.prevent="handleSubmit" >
       <div class="flex flex-col space-y-5">
         <label class="font-bold"  >Nombre</label>

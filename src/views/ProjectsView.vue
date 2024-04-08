@@ -4,9 +4,9 @@
 
 <template>
 <div class="flex flex-col bg-neutral-900 justify-center items-center space-y-10 min-h-screen text-gray-50">
-  <div class=" lg:w-3/4 w-full md:w-3/4   rounded-lg  lg:flex md:flex  md:space-y-0 lg:space-y-0 space-y-3 lg:space-x-10 md:space-x-10 items-center justify-center">
+  <div class="flex flex-col lg:w-3/4 w-full md:w-3/4   rounded-lg    lg:flex-row md:flex-row justify-center items-center  md:space-y-0 lg:space-y-0 space-y-3 lg:space-x-10 md:space-x-10  ">
 
-    <div class="justify-center md:w-1/2 lg:w-1/2 w-full items-center flex flex-col space-y-5  p-4 bg-gray-100  rounded-lg shadow-md">
+    <div class="justify-center md:w-1/2 lg:w-1/2  items-center w-4/5 flex flex-col space-y-5  p-4 bg-gray-100  rounded-lg shadow-md">
       <div class=" w-full rounded-2xl text-center ">
         <h1 class="text-3xl text-gray-700   font-bold">DEVFLIX</h1>
       </div>
@@ -47,7 +47,7 @@
         </details>
       </div>
     </div>
-    <div class="justify-center md:w-1/2 lg:w-1/2 w-full items-center flex flex-col space-y-5  p-4 bg-gray-100  rounded-lg shadow-md">
+    <div class="justify-center md:w-1/2 lg:w-1/2 w-4/5 items-center flex flex-col space-y-5  p-4 bg-gray-100  rounded-lg shadow-md">
       <div class=" w-full rounded-2xl text-center ">
         <h1 class="text-3xl text-gray-700   font-bold">PhoenixGroup Web</h1>
       </div>
