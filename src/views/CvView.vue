@@ -11,7 +11,7 @@
         <li class="border-gray-300 border-b-2 space-y-1">
           <h4 class="font-bold text-xl">FCT Gis SL</h4>
           <h5 class="font-semibold">Funciones:</h5>
-          <p> Junior Frontend Developer</p>
+          <p> Help desk Junior</p>
           <p class="text-sm">2019 - 2020</p>
         </li>
         <li class="border-gray-300 border-b-2 space-y-1">
