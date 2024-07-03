@@ -2,11 +2,11 @@
 <div class="flex flex-col justify-center min-h-screen bg-black space-y-40 items-center">
   <div class="flex flex-col justify-center space-y-10 border-b-8 pb-24 border-gray-200 items-center">
     <h2 class="text-7xl uppercase font-bold">Mejoramos constantemente!!</h2>
-    <p class="text-xl w-4/5 text-center ">Estamos reinventando nuestra empresa para ofrecerte el mejor producto para potenciar i agilizar al maximo tus tareas empresariales</p>
+    <p class="text-xl w-4/5 text-center ">Estamos reinventando nuestra empresa para ofrecerte el mejor producto para PTENCIAR i AGILIZAR al maximo tus tareas empresariales</p>
   </div>
   <div class="flex flex-col justify-center space-y-10 items-center">
     <h2 class="text-5xl uppercase font-bold">Se acabo lo de estar tirando tu tiempo!</h2>
-    <p class=" text-lg">Si te interesa sabewr mas información sobre nosotros dejanos tu mail y nos pondremos en contacto contigo</p>
+    <p class=" text-lg">Si te interesa saber mas información sobre nosotros dejanos tu mail y nos pondremos en contacto contigo</p>
     <form class="flex-col w-full items-center justify-center flex" @submit.prevent="handleSubmit" >
       <div class="flex  space-x-10">
         <div class="flex flex-col space-y-6">
