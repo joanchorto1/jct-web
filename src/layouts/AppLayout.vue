@@ -11,21 +11,21 @@ import IconGitHub from "@/components/icons/RRSS/IconGitHub.vue";
 
     <div class="md:flex lg:flex justify-center space-y-7 items-center content-center space-x-5 w-full  py-3  font-bold text-white ">
       <div class="md:w-1/3 lg:w-1/3 flex justify-center text-gray-50 space-x-8 text-center items-center content-center">
-        <a href="https://www.instagram.com/chorto24/">
-          <IconInstagram class=" fill-black"/></a>
-        <a href="https://www.linkedin.com/in/joanchorto/">
-          <IconLinkedin class="fill-black"/></a>
-        <a href="https://github.com/joanchorto1"><IconGitHub class="fill-black"/></a>
+<!--        <a href="https://www.instagram.com/chorto24/">-->
+<!--          <IconInstagram class=" fill-black"/></a>-->
+<!--        <a href="https://www.linkedin.com/in/joanchorto/">-->
+<!--          <IconLinkedin class="fill-black"/></a>-->
+<!--        <a href="https://github.com/joanchorto1"><IconGitHub class="fill-black"/></a>-->
 
       </div>
       <div class="md:w-1/3 lg:w-1/3 justify-center text-gray-50 text-center items-center content-center">
         <IconJCT class="h-20"/>
         </div>
       <div class="md:w-1/3 lg:w-1/3 justify-center text-black font-bold space-x-8 pt-5 text-center items-center content-center">
-        <a href="/">Home</a>
-        <a href="/cv">CV</a>
-        <a href="/projects">Proyectos</a>
-        <a href="/contact">Contacto</a>
+<!--        <a href="/">Home</a>-->
+<!--        <a href="/cv">CV</a>-->
+<!--        <a href="/projects">Proyectos</a>-->
+<!--        <a href="/contact">Contacto</a>-->
       </div>
     </div>
 
