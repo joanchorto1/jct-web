@@ -11,11 +11,11 @@
       <div class="flex  space-x-10">
         <div class="flex flex-col space-y-6">
           <label class="font-bold"  >Nombre</label>
-          <input class="rounded-xl " type="text" id="nombre" name="nombre" v-model="formFields.nombre"  required>
+          <input class="rounded-xl text-gray-900" type="text" id="nombre" name="nombre" v-model="formFields.nombre"  required>
         </div>
         <div class="flex flex-col space-y-6">
           <label class="font-bold" >Email</label>
-          <input class="rounded-xl" type="email" id="email"  name="email" v-model="formFields.email"  required>
+          <input class="rounded-xl text-gray-900" type="email" id="email"  name="email" v-model="formFields.email"  required>
         </div>
 
       </div>
