@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
-// import ProjectsView from "@/views/ProjectsView.vue";
-// import CvView from "@/views/CvView.vue";
-// import ContactView from "@/views/ContactView.vue";
-import ModificaciónView from "@/views/ModificaciónView.vue";
+import HomeView from "@/views/HomeView.vue";
+import ContactView from "@/views/ContactView.vue";
+import BlogView from "@/views/BlogView.vue";
+import JctagencyView from "@/views/JctagencyView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -10,23 +10,23 @@ const router = createRouter({
     {
       path: '/',
       name: 'ModificacionView',
-      component: ModificaciónView
+      component: HomeView
     },
-    // {
-    //   path: '/cv',
-    //   name: 'CvView',
-    //   component: CvView
-    // },
-    // {
-    //   path: '/projects',
-    //   name: 'ProjectsView',
-    //   component: ProjectsView
-    // },
-    // {
-    //   path: '/contact',
-    //   name: 'ContactView',
-    //   component: ContactView
-    // },
+    {
+      path: '/jctagency',
+      name: 'JCT Agency',
+      component: JctagencyView
+    },
+    {
+      path: '/blog',
+      name: 'BlogView',
+      component: BlogView
+    },
+    {
+      path: '/contact',
+      name: 'ContactView',
+      component: ContactView
+    },
 
 
   ]

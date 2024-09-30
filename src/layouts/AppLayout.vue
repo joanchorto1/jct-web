@@ -1,59 +1,86 @@
 <script setup>
-
 import IconJCT from "@/components/icons/MenuIcons/IconJCT.vue";
 import IconLinkedin from "@/components/icons/RRSS/IconLinkedin.vue";
 import IconInstagram from "@/components/icons/RRSS/IconInstagram.vue";
 import IconGitHub from "@/components/icons/RRSS/IconGitHub.vue";
+
 </script>
 
 <template>
-  <div class="">
-
-    <div class="md:flex lg:flex justify-center space-y-7 items-center content-center space-x-5 w-full  py-3  font-bold text-white ">
-      <div class="md:w-1/3 lg:w-1/3 flex justify-center text-gray-50 space-x-8 text-center items-center content-center">
-<!--        <a href="https://www.instagram.com/chorto24/">-->
-<!--          <IconInstagram class=" fill-black"/></a>-->
-<!--        <a href="https://www.linkedin.com/in/joanchorto/">-->
-<!--          <IconLinkedin class="fill-black"/></a>-->
-<!--        <a href="https://github.com/joanchorto1"><IconGitHub class="fill-black"/></a>-->
-
-      </div>
-      <div class="md:w-1/3 lg:w-1/3 justify-center text-gray-50 text-center items-center content-center">
-        <IconJCT class="h-20"/>
-        </div>
-      <div class="md:w-1/3 lg:w-1/3 justify-center text-black font-bold space-x-8 pt-5 text-center items-center content-center">
-<!--        <a href="/">Home</a>-->
-<!--        <a href="/cv">CV</a>-->
-<!--        <a href="/projects">Proyectos</a>-->
-<!--        <a href="/contact">Contacto</a>-->
-      </div>
-    </div>
-
-    <div class=" text-white ">
-      <slot/>
-    </div>
-
-  </div>
-  <footer
-      class=" bg-gray-100 text-black  py-24 flex justify-start space-x-5">
-    <div class="md:w-1/3 pl-5 lg:w-1/3 items-start justify-start">
-      <IconJCT class=" fill-gray-800 h-20"/>
-    </div>
-    <div class="flex opacity-0 md:opacity-100 lg:opacity-100 w-1/3 space-x-5">
-<!--      <h6 class="font-bold text-xl">JOAN CHORTO TOMAS</h6>-->
-    </div>
-    <div class=" md:w-1/3 pr-5 lg:w-1/3 justify-center items-center ">
-      <h6 class="font-bold">Contacto:</h6>
-      <ul>
-        <li>joan@jctagency.com</li>
-        <li>633391411</li>
+<header>
+  <div class="fixed md:flex lg:flex p-2 w-full space-x-5 font-bold text-white ">
+<!--    <div class="md:w-1/3 lg:w-1/3 ml-20 pt-2  flex text-gray-50 justify-start items-center">-->
+<!--      <a href="/"> <img src="/public/th.jpeg" class="h-20 hover:shadow-lg hover:shadow-gray-100  bg-black bg-opacity-35 p-2 backdrop-blur-md rounded-2xl" alt=""></a>-->
+<!--    </div>-->
+    <div class="w-full mt-10 flex justify-center items-center px-10 text-gray-50 text-center content-center">
+      <ul class="flex  rounded-full bg-opacity-30 bg-black backdrop-blur-md   py-3 px-5 space-x-5">
+        <li><a class="hover:border-b-2 border-gray-50 pb-2 hover:font-normal" href="/">Home</a></li>
+        <li><a class="hover:border-b-2 border-gray-50 pb-2 hover:font-normal" href="/jctagency">Empresa</a></li>
+        <li><a class="hover:border-b-2 border-gray-50 pb-2 hover:font-normal" href="/blog">Blog</a></li>
+        <li><a class="hover:border-b-2 border-gray-50 pb-2 hover:font-normal" href="/contact">Contacto</a></li>
       </ul>
+    </div>
+  </div>
+</header>
+
+
+    <div class="text-white "> <!-- Ajustamos el margen para el espacio del header -->
+      <slot class=""/>
+    </div>
+
+  <footer class="bg-gray-900 text-gray-300">
+    <div class="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+        <!-- Logo y descripción -->
+        <div>
+          <h2 class="text-lg font-bold text-white mb-4">JCT Agency</h2>
+          <p class="text-sm">
+            Nuestro objetivo es ayudarte a mejorar tu empresa con las mejores herramientas.
+          </p>
+        </div>
+
+        <!-- Enlaces de navegación -->
+        <div class="justify-start items-center flex flex-col">
+          <h3 class="text-lg font-semibold text-white mb-4">Enlaces</h3>
+          <ul class="space-y-2">
+            <li><a href="/" class="hover:text-white">Inicio</a></li>
+            <li><a href="/jctagency" class="hover:text-white">Empresa</a></li>
+            <li><a href="/blog" class="hover:text-white">Blog</a></li>
+            <li><a href="/contact" class="hover:text-white">Contacto</a></li>
+          </ul>
+        </div>
+
+        <!-- Redes sociales -->
+        <div class="justify-start items-center flex flex-col">
+          <h3 class="text-lg font-semibold text-white mb-4">Síguenos</h3>
+          <div class="flex space-x-4">
+            <a href="/" class="text-gray-400 hover:text-white">
+             <IconInstagram />
+            </a>
+            <a href="/" class="text-gray-400 hover:text-white">
+              <IconLinkedin />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="mt-8 border-t border-gray-700 pt-8 text-center">
+        <p class="text-sm">&copy; 2024 JCT Agency Todos los derechos reservados.</p>
+      </div>
     </div>
   </footer>
 
 </template>
 
-
 <style scoped>
-</style>
+/* Ajustes adicionales para mejorar el diseño */
+.bg-transparent {
+  background-color: rgba(255, 255, 255, 0.1); /* Color semitransparente */
+}
 
+.backdrop-blur-md {
+  backdrop-filter: blur(10px); /* Nivel de desenfoque */
+}
+</style>
