@@ -1,7 +1,7 @@
 <template>
  <div class="flex flex-col min-h-screen">
 <!--   //HeroSection Informacion del ERP imagen de fondo y texto-->
-     <div class=" flex hero-section items-center justify-center h-screen bg-cover bg-bottom" style=");">
+     <div class=" flex hero-section items-center justify-center h-screen bg-cover bg-bottom" >
        <div data-aos="fade-right" class="space-y-10 items-start justify-start flex flex-col text-white">
          <h1 class="text-5xl text-gray-50 font-bold">Gestiona tu empresa de forma centralizada</h1>
          <p class="text-2xl text-gray-200">Optimiza tu negocio con nuestras herramientas modernas y efectivas.</p>
